@@ -1,5 +1,5 @@
 name: "Kinetic Gain Suite Spec-Version Tracker"
-description: "Walk a mixed-protocol directory of Kinetic Gain Suite JSON documents (AgentCards, MCP Tool Cards, prompt-provenance, evidence bundles, OTLP traces, MCP tools/list), group by (protocol, spec_version), flag fleet-wide version drift, post a Markdown summary as a PR comment, and fail the build when drift is detected."
+description: "Track Kinetic Gain Suite spec versions across a mixed-protocol fleet; flag drift on PR."
 author: "mizcausevic-dev"
 branding:
   icon: "git-branch"
